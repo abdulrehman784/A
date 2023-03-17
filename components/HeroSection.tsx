@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/headshot.png"
+            src="/abdul.jpg"
             alt=""
             width={325}
             height={325}
@@ -26,7 +26,7 @@ const HeroSection = () => {
           >
             <Typewriter
               options={{
-                strings: [`I'm Naqash!`, `Programmer`, `Developer`],
+                strings: [`I'm Abdul Rehman!`, `Programmer`, `Developer`],
                 autoStart: true,
                 loop: true,
               }}
@@ -34,7 +34,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{' '}
-            <span className="font-semibold text-orange-400">
+            <span className="font-semibold text-yellow-600">
               Web Developer{' '}
             </span>
             , Working towards creating web apps and web developments that makes
@@ -42,7 +42,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-orange-400 rounded shadow hover:bg-orange-500"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-yellow-600 rounded shadow hover:bg-yellow-600"
             activeClass="active"
             spy={true}
             smooth={true}
