@@ -1,37 +1,37 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import SlideUp from './SlideUp';
+import SlideUp from './Slideup';
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 
 const projects = [
   {
     name: 'Panaverse Dao Website',
     description: 'First ever build website Panaverse Dao.',
-    image: '/Panaverse.png',
-    github: 'https://github.com/CodeWithNaqash/Panavere-Samplesite',
-    link: 'https://panavere-website.vercel.app',
+    image: '/23.png',
+    github: 'https://github.com/abdulrehman784',
+    link: 'https://rehman.vercel.app/',
   },
   {
     name: 'Todo App',
     description:
       'Todo App that make us remind the Plan of a Day/List of Work to complete in a Month.',
-    image: '/todoapp.png',
-    github: 'https://github.com/CodeWithNaqash/todo-app',
+    image: '',
+    github: 'https://github.com/abdulrehman784',
     link: 'https://todo-app-theta-flame.vercel.app',
   },
   {
     name: 'Blog',
     description: 'Building Blog website with two blogs in it.',
-    image: '/Blog_P.png',
-    github: 'https://github.com/CodeWithNaqash/next.js12-blog',
+    image: '',
+    github: 'https://github.com/abdulrehman784',
     link: 'https://nextjs-blog-two-topaz-28.vercel.app',
   },
   {
     name: 'Pricing UI',
     description: 'Landing pricing page with Chakra UI and Next.js',
-    image: '/PricingUI.png',
-    github: 'https://github.com/CodeWithNaqash/pricinguichakra',
+    image: '',
+    github: 'https://github.com/abdulrehman784',
     link: 'https://pricinguichakra-rust.vercel.app',
   },
 ];
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-orange-400 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-yellow-600 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
