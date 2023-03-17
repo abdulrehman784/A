@@ -1,7 +1,5 @@
 'use client';
 import AboutSection from '@/components/AboutSection';
-import ContactUs from '@/components/ContactUs';
-import Counter from '@/components/Counter';
 import FeaturesSection from '@/components/FeaturesSection ';
 import HeroSection from '@/components/HeroSection';
 import ProjectsSection from '@/components/ProjectsSection';
@@ -12,8 +10,6 @@ export default function Home() {
       <AboutSection />
       <ProjectsSection />
       <FeaturesSection />
-      <Counter />
-      <ContactUs />
     </main>
   );
 }
