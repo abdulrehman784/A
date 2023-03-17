@@ -12,11 +12,11 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Naqash Younas<a href="/" className="hover:underline"></a>
+          © 2023 Abdul Rehman<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
-            href="https://github.com/CodeWithNaqash"
+            href="https://github.com/abdulrehman784"
             rel="noreferrer"
             target="_blank"
           >
@@ -26,7 +26,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com/naqashyounas3"
+            href="https://twitter.com/Scorpio_tes"
             rel="noreferrer"
             target="_blank"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/naqash-younas-949b58226"
+            href="https://www.linkedin.com/in/abdul-rehman-feroz-ahmed-b51858213/"
             rel="noreferrer"
             target="_blank"
           >
