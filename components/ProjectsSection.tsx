@@ -16,7 +16,7 @@ const projects = [
     name: 'Todo App',
     description:
       'Todo App that make us remind the Plan of a Day/List of Work to complete in a Month.',
-    image: '/Todo App.png',
+    image: '/todoapp.png',
     github: 'https://github.com/CodeWithNaqash/todo-app',
     link: 'https://todo-app-theta-flame.vercel.app',
   },
